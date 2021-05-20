@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    align-items: center;
     background-color: #C2C1C2;
 }
 .nav-wrapper {
@@ -22,8 +23,8 @@ h5 {
 }
 .projecttitle {
     color: #654F6F;
-    background-color: #A8C69F;
-    padding: 1px 0;
+    border-bottom: #A8C69F solid 3px;
+    padding: 5px 0;
     margin-bottom: 20px;
 }
 .card {
@@ -45,4 +46,7 @@ img {
 
 #deploylinks a:hover {
     background-color: #A8C69F;
+}
+.profilepic {
+    width: 40vw;
 }
