@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #C2C1C2;
+}
+.nav-wrapper {
+    background-color: #654F6F;
+    position: fixed;
+    z-index: 1;
+}
+a {
+    color: #A8C69F !important;
+}
+#projects {
+    margin: 0 auto;
+}
+
+
+h5 {
+    padding-bottom: 5px;
+}
+.projecttitle {
+    color: #654F6F;
+    background-color: #A8C69F;
+    padding: 1px 0;
+    margin-bottom: 20px;
+}
+.card {
+    min-width: 70vw;
+    max-width: 70vw;
+    border-radius: .3rem;
+}
+img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+#deploylinks a {
+    background-color: #654F6F;
+    padding: 7px;
+    border-radius: .3rem;
+    color: white !important;
+}
+
+#deploylinks a:hover {
+    background-color: #A8C69F;
+}
