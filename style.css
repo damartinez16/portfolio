@@ -4,26 +4,36 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #C2C1C2;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
 }
 .nav-wrapper {
     background-color: #654F6F;
     position: fixed;
     z-index: 1;
+    height: 70px;
+    
 }
 a {
     color: #A8C69F !important;
+    font-size: 18px !important;
+}
+a:hover {
+    background-color: #A8C69F !important;
+    color: #654F6F !important;
+    padding: 0 15px 5px 15px;
+}
+nav ul a {
+    transition: none;
 }
 #projects {
     margin: 0 auto;
 }
-
-
-h5 {
-    padding-bottom: 5px;
+h3 {
+    margin: 0;
 }
 .projecttitle {
     color: #654F6F;
-    border-bottom: #A8C69F solid 3px;
     padding: 5px 0;
     margin-bottom: 20px;
 }
@@ -49,4 +59,30 @@ img {
 }
 .profilepic {
     width: 40vw;
+}
+#contact-links a {
+    color: #654F6F !important;
+    font-size: 50px !important;
+}
+img.logo {
+    width: 50px !important;
+    margin: 10px 0 10px 30px;
+}
+#about {
+    margin-top: 70px;
+}
+h2 {
+    color:white;
+    background-color:#A8C69F;
+    padding: 20px;
+    border-radius: .3rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-wrapper {
+        height: 55px;
+    }
+    img.logo {
+        width: 38px !important;
+    }
 }
